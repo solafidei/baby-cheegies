@@ -1,4 +1,17 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Solutions | Factors Western',
+  description: 'Explore real-world cash flow solutions tailored for Canadian businesses.',
+  alternates: { canonical: '/solutions' },
+  openGraph: {
+    title: 'Solutions | Factors Western',
+    description: 'Explore real-world cash flow solutions tailored for Canadian businesses.',
+    url: 'https://www.factorswestern.com/solutions',
+    type: 'website',
+  },
+};
 
 export default function Solutions() {
   return (

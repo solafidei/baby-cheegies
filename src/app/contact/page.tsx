@@ -1,4 +1,17 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Contact | Factors Western',
+  description: 'Get in touch with Factors Western to discuss flexible factoring and cash flow solutions for Canadian businesses.',
+  alternates: { canonical: '/contact' },
+  openGraph: {
+    title: 'Contact | Factors Western',
+    description: 'Get in touch with Factors Western to discuss flexible factoring and cash flow solutions for Canadian businesses.',
+    url: 'https://www.factorswestern.com/contact',
+    type: 'website',
+  },
+};
 
 export default function Contact() {
   return (

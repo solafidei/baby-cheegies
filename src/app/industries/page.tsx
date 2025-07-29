@@ -1,4 +1,17 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Industries We Serve | Factors Western',
+  description: 'Discover the diverse industries that Factors Western supports with flexible factoring solutions.',
+  alternates: { canonical: '/industries' },
+  openGraph: {
+    title: 'Industries We Serve | Factors Western',
+    description: 'Discover the diverse industries that Factors Western supports with flexible factoring solutions.',
+    url: 'https://www.factorswestern.com/industries',
+    type: 'website',
+  },
+};
 
 export default function Industries() {
   const industries = [

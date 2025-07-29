@@ -1,4 +1,17 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'FAQ | Factors Western',
+  description: 'Frequently asked questions about factoring services provided by Factors Western.',
+  alternates: { canonical: '/faq' },
+  openGraph: {
+    title: 'FAQ | Factors Western',
+    description: 'Frequently asked questions about factoring services provided by Factors Western.',
+    url: 'https://www.factorswestern.com/faq',
+    type: 'website',
+  },
+};
 
 export default function FAQ() {
   const faqs = [
