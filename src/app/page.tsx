@@ -19,10 +19,10 @@ export default function Home() {
         <div className="absolute inset-0 hero-overlay z-20"></div>
         <div className="relative z-30 flex items-center justify-center h-full text-white text-center px-4">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl md-text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Unlock Your Cash Flow
             </h1>
-            <p className="text-xl md-text-2xl mb-8 text-gray-200">
+            <p className="text-xl md:text-2xl mb-8 text-gray-200">
               Factoring solutions tailored for Canadian businesses
             </p>
             <Link href="/solutions" className="btn-primary text-lg">
@@ -34,8 +34,8 @@ export default function Home() {
 
       {/* About Section */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm-px-6 lg-px-8">
-          <div className="grid grid-cols-1 lg-grid-cols-2 gap-12 items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <Image 
                 src="/financial-hero.jpeg" 
@@ -46,7 +46,7 @@ export default function Home() {
               />
             </div>
             <div>
-              <h2 className="text-3xl md-text-4xl font-bold text-primary mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
                 Welcome to Factors Western
               </h2>
               <p className="text-gray-600 mb-4 text-lg">
@@ -80,7 +80,7 @@ export default function Home() {
 
       {/* What is Factoring Section */}
       <section className="py-20 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4 sm-px-6 lg-px-8">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">What is Factoring?</h2>
           <div className="prose prose-lg mx-auto text-gray-600">
             <p>
@@ -95,8 +95,8 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-white">
-        <div className="max-w-4xl mx-auto text-center px-4 sm-px-6 lg-px-8">
-          <h2 className="text-3xl md-text-4xl font-bold mb-6">
+        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Improve Your Cash Flow?
           </h2>
           <p className="text-xl mb-8">
