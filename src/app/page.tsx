@@ -1,8 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
-  return (
+  return (  
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen overflow-hidden">
@@ -18,10 +19,10 @@ export default function Home() {
         <div className="absolute inset-0 hero-overlay z-20"></div>
         <div className="relative z-30 flex items-center justify-center h-full text-white text-center px-4">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md-text-6xl font-bold mb-6">
               Unlock Your Cash Flow
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-200">
+            <p className="text-xl md-text-2xl mb-8 text-gray-200">
               Factoring solutions tailored for Canadian businesses
             </p>
             <Link href="/solutions" className="btn-primary text-lg">
@@ -33,17 +34,19 @@ export default function Home() {
 
       {/* About Section */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-7xl mx-auto px-4 sm-px-6 lg-px-8">
+          <div className="grid grid-cols-1 lg-grid-cols-2 gap-12 items-center">
             <div>
-              <img 
+              <Image 
                 src="/financial-hero.jpeg" 
                 alt="Financial documents" 
+                width={800}
+                height={600}
                 className="rounded-lg shadow-lg w-full h-96 object-cover"
               />
             </div>
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
+              <h2 className="text-3xl md-text-4xl font-bold text-primary mb-6">
                 Welcome to Factors Western
               </h2>
               <p className="text-gray-600 mb-4 text-lg">
@@ -77,14 +80,14 @@ export default function Home() {
 
       {/* What is Factoring Section */}
       <section className="py-20 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto px-4 sm-px-6 lg-px-8">
           <h2 className="text-3xl font-bold text-center mb-12">What is Factoring?</h2>
           <div className="prose prose-lg mx-auto text-gray-600">
             <p>
-              <strong>"Factoring"</strong> is the process of converting business accounts receivable to cash, facilitating continued and stable growth, and improved efficiency of the business by creating more productive positive time for owners to better manage their companies.
+              <strong>&quot;Factoring&quot;</strong> is the process of converting business accounts receivable to cash, facilitating continued and stable growth, and improved efficiency of the business by creating more productive positive time for owners to better manage their companies.
             </p>
             <p>
-              Factoring is not a loan, but rather the discounted sale of an asset (receivable) for immediate cash. Invoices are purchased based on the "credit worthiness" of the payer, as opposed to the more conventional lending method of evaluating the credit and security of the client.
+              Factoring is not a loan, but rather the discounted sale of an asset (receivable) for immediate cash. Invoices are purchased based on the &quot;credit worthiness&quot; of the payer, as opposed to the more conventional lending method of evaluating the credit and security of the client.
             </p>
           </div>
         </div>
@@ -92,8 +95,8 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-white">
-        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+        <div className="max-w-4xl mx-auto text-center px-4 sm-px-6 lg-px-8">
+          <h2 className="text-3xl md-text-4xl font-bold mb-6">
             Ready to Improve Your Cash Flow?
           </h2>
           <p className="text-xl mb-8">

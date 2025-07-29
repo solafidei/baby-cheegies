@@ -65,7 +65,7 @@ export default function Solutions() {
                   However he soon learned that the companies he was doing the work for would not pay him for 30 to 60 days after he invoiced them. He was a week away from needing funds for his next payroll, and was not sure when the cheques would arrive in the mail.
                 </p>
                 <p className="mt-4">
-                  Peter was in a cash flow crunch from all the growth his business was experiencing. His friend had heard about Factors Western and told Peter to give them a call. Factors Western was able to quickly set up Peter's company and advance on his invoices within a couple days, which allowed Peter to meet his payroll and continue to grow.
+                  Peter was in a cash flow crunch from all the growth his business was experiencing. His friend had heard about Factors Western and told Peter to give them a call. Factors Western was able to quickly set up Peter&apos;s company and advance on his invoices within a couple days, which allowed Peter to meet his payroll and continue to grow.
                 </p>
                 <p className="mt-4">
                   Once Peter was set up he no longer needed to worry about if a cheque would arrive in time, he knew he would be able to meet his cash flow requirements. He soon was able to take on more business without fear of not having the available funds to do so.

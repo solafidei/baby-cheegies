@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -8,33 +9,35 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Factors Western</h3>
             <p className="text-gray-300 mb-4">
-              Established in 1985 in Calgary, helping Canadian businesses convert receivables to cash and create reliable cash flow solutions.
+              Established in 1985, Factors Western provides factoring solutions for Canadian businesses across various industries.
             </p>
           </div>
-          
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Home</a></li>
-              <li><a href="/solutions" className="text-gray-300 hover:text-white transition-colors">Solutions</a></li>
-              <li><a href="/faq" className="text-gray-300 hover:text-white transition-colors">FAQ</a></li>
-              <li><a href="/industries" className="text-gray-300 hover:text-white transition-colors">Industries We Serve</a></li>
-              <li><a href="/contact" className="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+              <li><Link href="/" className="text-gray-300 hover:text-white transition-colors">Home</Link></li>
+              <li><Link href="/solutions" className="text-gray-300 hover:text-white transition-colors">Solutions</Link></li>
+              <li><Link href="/faq" className="text-gray-300 hover:text-white transition-colors">FAQ</Link></li>
+              <li><Link href="/industries" className="text-gray-300 hover:text-white transition-colors">Industries We Serve</Link></li>
+              <li><Link href="/contact" className="text-gray-300 hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <div className="text-gray-300 space-y-2">
+              <p>Calgary, Alberta</p>
+              <p>Phone: (403) 277-0330</p>
+              <p>Fax: (403) 277-7066</p>
               <p>Email: info@factorswestern.com</p>
-              <p>Phone: (123) 456-7890</p>
-              <p>Location: Calgary, AB</p>
             </div>
           </div>
         </div>
         
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p className="text-gray-400">&copy; 2025 Factors Western. All rights reserved.</p>
+          <p className="text-gray-300">
+            © 2024 Factors Western. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

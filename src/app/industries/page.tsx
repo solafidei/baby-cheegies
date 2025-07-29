@@ -66,7 +66,7 @@ export default function Industries() {
               Diverse Industry Experience
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Since 1985, we've partnered with businesses across various industries, understanding the unique cash flow challenges each sector faces and providing tailored solutions.
+              Since 1985, we&apos;ve partnered with businesses across various industries, understanding the unique cash flow challenges each sector faces and providing tailored solutions.
             </p>
           </div>
 
@@ -131,7 +131,7 @@ export default function Industries() {
       <section className="py-20 bg-primary text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Don't See Your Industry Listed?
+            Don&apos;t See Your Industry Listed?
           </h2>
           <p className="text-xl mb-8">
             We work with businesses across many industries. Contact us to discuss your specific needs.
